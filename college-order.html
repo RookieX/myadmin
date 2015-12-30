@@ -83,75 +83,419 @@
             </ol>
         </div>
         <div class="row">
-            <div class="col-lg-8">
-                <div class="table-responsive">
-                    <table id="college_order_table" class="table table-bordered table-hover">
-                        <thead>
-                            <tr>
-                                <th>订单号</th>
-                                <th>学校</th>
-                                <th>学生</th>
-                                <th>易宝金额</th>
-                                <th>盛付通金额</th>
-                                <th>民生转账金额</th>
-                                <th>首信易金额</th>
-                                <th>到账金额</th>
-                                <th>日期</th>
-                                <th>状态</th>
-                                <th>客服</th>
-                                <th>操作</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>ET20151230141836868005</td>
-                                <td>
-                                    <p>University of California--Santa Barbara</p>
-                                    <p>加州大学圣塔芭芭拉分校</p>
-                                </td>
-                                <td>马俊榕</td>
-                                <td>$19000.0 (￥124409.2)
-                                </td>
-                                <td>$19000.0 (￥124029.16)
-                                </td>
-                                <td>$19000.0 (￥124161.16)
-                                </td>
-                                <td>$19000.0 (￥127624.55)
-                                </td>
-                                <td>$19000.0</td>
-                                <td>2015-12-30 14:18:36</td>
-                                <td>等待支付</td>
-                                <td>冯艳丽</td>
-                                <td><span class="icon icon-circle-down dropdown-detail"></span></td>
-                            </tr>
-                            <tr>
-                                <td>ET20151230141836868005</td>
-                                <td>
-                                    <p>University of California--Santa Barbara</p>
-                                    <p>加州大学圣塔芭芭拉分校</p>
-                                </td>
-                                <td>马俊榕</td>
-                                <td>$19000.0 (￥124409.2)
-                                </td>
-                                <td>$19000.0 (￥124029.16)
-                                </td>
-                                <td>$19000.0 (￥124161.16)
-                                </td>
-                                <td>$19000.0 (￥127624.55)
-                                </td>
-                                <td>$19000.0</td>
-                                <td><span>2015-12-30</span><span>14:18:36</span></td>
-                                <td>等待支付</td>
-                                <td>冯艳丽</td>
-                                <td><span class="icon icon-circle-down dropdown-detail"></span></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="col-lg-4">
+            <table id="college_order_table" class="table table-bordered table-hover table-condensed table-striped">
+                <thead>
+                    <tr>
+                        <th>
+                            <input type="checkbox">
+                        </th>
+                        <th>订单号</th>
+                        <th>学校</th>
+                        <th>学生</th>
+                        <th>易宝金额</th>
+                        <th>盛付通金额</th>
+                        <th>民生转账金额</th>
+                        <th>首信易金额</th>
+                        <th>到账金额</th>
+                        <th>日期</th>
+                        <th>状态</th>
+                        <th>客服</th>
+                        <th>详情</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr order_id="ET20151230141836868004">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>ET20151230141836868004</td>
+                        <td>
+                            <p>University of California--Santa Barbara</p>
+                            <p>加州大学圣塔芭芭拉分校</p>
+                        </td>
+                        <td>马俊榕</td>
+                        <td>$19000.0 (￥124409.2)
+                        </td>
+                        <td>$19000.0 (￥124029.16)
+                        </td>
+                        <td>$19000.0 (￥124161.16)
+                        </td>
+                        <td>$19000.0 (￥127624.55)
+                        </td>
+                        <td>$19000.0</td>
+                        <td>2015-12-30 14:18:36</td>
+                        <td>等待支付</td>
+                        <td><a href="javascript:void(0);">冯艳丽</a></td>
+                        <td><span class="icon icon-circle-down dropdown-detail"></span></td>
+                    </tr>
+                    <tr order_id="ET20151230141836868004">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>ET20151230141836868004</td>
+                        <td>
+                            <p>University of California--Santa Barbara</p>
+                            <p>加州大学圣塔芭芭拉分校</p>
+                        </td>
+                        <td>马俊榕</td>
+                        <td>$19000.0 (￥124409.2)
+                        </td>
+                        <td>$19000.0 (￥124029.16)
+                        </td>
+                        <td>$19000.0 (￥124161.16)
+                        </td>
+                        <td>$19000.0 (￥127624.55)
+                        </td>
+                        <td>$19000.0</td>
+                        <td>2015-12-30 14:18:36</td>
+                        <td>等待支付</td>
+                        <td><a href="javascript:void(0);">冯艳丽</a></td>
+                        <td><span class="icon icon-circle-down dropdown-detail"></span></td>
+                    </tr>
+                    <tr order_id="ET20151230141836868004">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>ET20151230141836868004</td>
+                        <td>
+                            <p>University of California--Santa Barbara</p>
+                            <p>加州大学圣塔芭芭拉分校</p>
+                        </td>
+                        <td>马俊榕</td>
+                        <td>$19000.0 (￥124409.2)
+                        </td>
+                        <td>$19000.0 (￥124029.16)
+                        </td>
+                        <td>$19000.0 (￥124161.16)
+                        </td>
+                        <td>$19000.0 (￥127624.55)
+                        </td>
+                        <td>$19000.0</td>
+                        <td>2015-12-30 14:18:36</td>
+                        <td>等待支付</td>
+                        <td><a href="javascript:void(0);">冯艳丽</a></td>
+                        <td><span class="icon icon-circle-down dropdown-detail"></span></td>
+                    </tr>
+                    <tr order_id="ET20151230141836868004">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>ET20151230141836868004</td>
+                        <td>
+                            <p>University of California--Santa Barbara</p>
+                            <p>加州大学圣塔芭芭拉分校</p>
+                        </td>
+                        <td>马俊榕</td>
+                        <td>$19000.0 (￥124409.2)
+                        </td>
+                        <td>$19000.0 (￥124029.16)
+                        </td>
+                        <td>$19000.0 (￥124161.16)
+                        </td>
+                        <td>$19000.0 (￥127624.55)
+                        </td>
+                        <td>$19000.0</td>
+                        <td>2015-12-30 14:18:36</td>
+                        <td>等待支付</td>
+                        <td><a href="javascript:void(0);">冯艳丽</a></td>
+                        <td><span class="icon icon-circle-down dropdown-detail"></span></td>
+                    </tr>
+                    <tr order_id="ET20151230141836868004">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>ET20151230141836868004</td>
+                        <td>
+                            <p>University of California--Santa Barbara</p>
+                            <p>加州大学圣塔芭芭拉分校</p>
+                        </td>
+                        <td>马俊榕</td>
+                        <td>$19000.0 (￥124409.2)
+                        </td>
+                        <td>$19000.0 (￥124029.16)
+                        </td>
+                        <td>$19000.0 (￥124161.16)
+                        </td>
+                        <td>$19000.0 (￥127624.55)
+                        </td>
+                        <td>$19000.0</td>
+                        <td>2015-12-30 14:18:36</td>
+                        <td>等待支付</td>
+                        <td><a href="javascript:void(0);">冯艳丽</a></td>
+                        <td><span class="icon icon-circle-down dropdown-detail"></span></td>
+                    </tr>
+                    <tr order_id="ET20151230141836868004">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>ET20151230141836868004</td>
+                        <td>
+                            <p>University of California--Santa Barbara</p>
+                            <p>加州大学圣塔芭芭拉分校</p>
+                        </td>
+                        <td>马俊榕</td>
+                        <td>$19000.0 (￥124409.2)
+                        </td>
+                        <td>$19000.0 (￥124029.16)
+                        </td>
+                        <td>$19000.0 (￥124161.16)
+                        </td>
+                        <td>$19000.0 (￥127624.55)
+                        </td>
+                        <td>$19000.0</td>
+                        <td>2015-12-30 14:18:36</td>
+                        <td>等待支付</td>
+                        <td><a href="javascript:void(0);">冯艳丽</a></td>
+                        <td><span class="icon icon-circle-down dropdown-detail"></span></td>
+                    </tr>
+                    <tr order_id="ET20151230141836868004">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>ET20151230141836868004</td>
+                        <td>
+                            <p>University of California--Santa Barbara</p>
+                            <p>加州大学圣塔芭芭拉分校</p>
+                        </td>
+                        <td>马俊榕</td>
+                        <td>$19000.0 (￥124409.2)
+                        </td>
+                        <td>$19000.0 (￥124029.16)
+                        </td>
+                        <td>$19000.0 (￥124161.16)
+                        </td>
+                        <td>$19000.0 (￥127624.55)
+                        </td>
+                        <td>$19000.0</td>
+                        <td>2015-12-30 14:18:36</td>
+                        <td>等待支付</td>
+                        <td><a href="javascript:void(0);">冯艳丽</a></td>
+                        <td><span class="icon icon-circle-down dropdown-detail"></span></td>
+                    </tr>
+                    <tr order_id="ET20151230141836868004">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>ET20151230141836868004</td>
+                        <td>
+                            <p>University of California--Santa Barbara</p>
+                            <p>加州大学圣塔芭芭拉分校</p>
+                        </td>
+                        <td>马俊榕</td>
+                        <td>$19000.0 (￥124409.2)
+                        </td>
+                        <td>$19000.0 (￥124029.16)
+                        </td>
+                        <td>$19000.0 (￥124161.16)
+                        </td>
+                        <td>$19000.0 (￥127624.55)
+                        </td>
+                        <td>$19000.0</td>
+                        <td>2015-12-30 14:18:36</td>
+                        <td>等待支付</td>
+                        <td><a href="javascript:void(0);">冯艳丽</a></td>
+                        <td><span class="icon icon-circle-down dropdown-detail"></span></td>
+                    </tr>
+                    <tr order_id="ET20151230141836868004">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>ET20151230141836868004</td>
+                        <td>
+                            <p>University of California--Santa Barbara</p>
+                            <p>加州大学圣塔芭芭拉分校</p>
+                        </td>
+                        <td>马俊榕</td>
+                        <td>$19000.0 (￥124409.2)
+                        </td>
+                        <td>$19000.0 (￥124029.16)
+                        </td>
+                        <td>$19000.0 (￥124161.16)
+                        </td>
+                        <td>$19000.0 (￥127624.55)
+                        </td>
+                        <td>$19000.0</td>
+                        <td>2015-12-30 14:18:36</td>
+                        <td>等待支付</td>
+                        <td><a href="javascript:void(0);">冯艳丽</a></td>
+                        <td><span class="icon icon-circle-down dropdown-detail"></span></td>
+                    </tr>
+                    <tr order_id="ET20151230141836868004">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>ET20151230141836868004</td>
+                        <td>
+                            <p>University of California--Santa Barbara</p>
+                            <p>加州大学圣塔芭芭拉分校</p>
+                        </td>
+                        <td>马俊榕</td>
+                        <td>$19000.0 (￥124409.2)
+                        </td>
+                        <td>$19000.0 (￥124029.16)
+                        </td>
+                        <td>$19000.0 (￥124161.16)
+                        </td>
+                        <td>$19000.0 (￥127624.55)
+                        </td>
+                        <td>$19000.0</td>
+                        <td>2015-12-30 14:18:36</td>
+                        <td>等待支付</td>
+                        <td><a href="javascript:void(0);">冯艳丽</a></td>
+                        <td><span class="icon icon-circle-down dropdown-detail"></span></td>
+                    </tr>
+                    <tr order_id="ET20151230141836868004">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>ET20151230141836868004</td>
+                        <td>
+                            <p>University of California--Santa Barbara</p>
+                            <p>加州大学圣塔芭芭拉分校</p>
+                        </td>
+                        <td>马俊榕</td>
+                        <td>$19000.0 (￥124409.2)
+                        </td>
+                        <td>$19000.0 (￥124029.16)
+                        </td>
+                        <td>$19000.0 (￥124161.16)
+                        </td>
+                        <td>$19000.0 (￥127624.55)
+                        </td>
+                        <td>$19000.0</td>
+                        <td>2015-12-30 14:18:36</td>
+                        <td>等待支付</td>
+                        <td><a href="javascript:void(0);">冯艳丽</a></td>
+                        <td><span class="icon icon-circle-down dropdown-detail"></span></td>
+                    </tr>
+                    <tr order_id="ET20151230141836868004">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>ET20151230141836868004</td>
+                        <td>
+                            <p>University of California--Santa Barbara</p>
+                            <p>加州大学圣塔芭芭拉分校</p>
+                        </td>
+                        <td>马俊榕</td>
+                        <td>$19000.0 (￥124409.2)
+                        </td>
+                        <td>$19000.0 (￥124029.16)
+                        </td>
+                        <td>$19000.0 (￥124161.16)
+                        </td>
+                        <td>$19000.0 (￥127624.55)
+                        </td>
+                        <td>$19000.0</td>
+                        <td>2015-12-30 14:18:36</td>
+                        <td>等待支付</td>
+                        <td><a href="javascript:void(0);">冯艳丽</a></td>
+                        <td><span class="icon icon-circle-down dropdown-detail"></span></td>
+                    </tr>
+                    <tr order_id="ET20151230141836868004">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>ET20151230141836868004</td>
+                        <td>
+                            <p>University of California--Santa Barbara</p>
+                            <p>加州大学圣塔芭芭拉分校</p>
+                        </td>
+                        <td>马俊榕</td>
+                        <td>$19000.0 (￥124409.2)
+                        </td>
+                        <td>$19000.0 (￥124029.16)
+                        </td>
+                        <td>$19000.0 (￥124161.16)
+                        </td>
+                        <td>$19000.0 (￥127624.55)
+                        </td>
+                        <td>$19000.0</td>
+                        <td>2015-12-30 14:18:36</td>
+                        <td>等待支付</td>
+                        <td><a href="javascript:void(0);">冯艳丽</a></td>
+                        <td><span class="icon icon-circle-down dropdown-detail"></span></td>
+                    </tr>
+                    <tr order_id="ET20151230141836868004">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>ET20151230141836868004</td>
+                        <td>
+                            <p>University of California--Santa Barbara</p>
+                            <p>加州大学圣塔芭芭拉分校</p>
+                        </td>
+                        <td>马俊榕</td>
+                        <td>$19000.0 (￥124409.2)
+                        </td>
+                        <td>$19000.0 (￥124029.16)
+                        </td>
+                        <td>$19000.0 (￥124161.16)
+                        </td>
+                        <td>$19000.0 (￥127624.55)
+                        </td>
+                        <td>$19000.0</td>
+                        <td>2015-12-30 14:18:36</td>
+                        <td>等待支付</td>
+                        <td><a href="javascript:void(0);">冯艳丽</a></td>
+                        <td><span class="icon icon-circle-down dropdown-detail"></span></td>
+                    </tr>
+                    <tr order_id="ET20151230141836868004">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>ET20151230141836868004</td>
+                        <td>
+                            <p>University of California--Santa Barbara</p>
+                            <p>加州大学圣塔芭芭拉分校</p>
+                        </td>
+                        <td>马俊榕</td>
+                        <td>$19000.0 (￥124409.2)
+                        </td>
+                        <td>$19000.0 (￥124029.16)
+                        </td>
+                        <td>$19000.0 (￥124161.16)
+                        </td>
+                        <td>$19000.0 (￥127624.55)
+                        </td>
+                        <td>$19000.0</td>
+                        <td>2015-12-30 14:18:36</td>
+                        <td>等待支付</td>
+                        <td><a href="javascript:void(0);">冯艳丽</a></td>
+                        <td><span class="icon icon-circle-down dropdown-detail"></span></td>
+                    </tr>
+                    <tr order_id="ET20151230141836868004">
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>ET20151230141836868004</td>
+                        <td>
+                            <p>University of California--Santa Barbara</p>
+                            <p>加州大学圣塔芭芭拉分校</p>
+                        </td>
+                        <td>马俊榕</td>
+                        <td>$19000.0 (￥124409.2)
+                        </td>
+                        <td>$19000.0 (￥124029.16)
+                        </td>
+                        <td>$19000.0 (￥124161.16)
+                        </td>
+                        <td>$19000.0 (￥127624.55)
+                        </td>
+                        <td>$19000.0</td>
+                        <td>2015-12-30 14:18:36</td>
+                        <td>等待支付</td>
+                        <td><a href="javascript:void(0);">冯艳丽</a></td>
+                        <td><span class="icon icon-circle-down dropdown-detail"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
-            </div>
+    <div class="opt-modal">
+        <div class="opt-container">
+            <b class="glyphicon glyphicon-remove-circle opt-modal-close"></b>
         </div>
     </div>
     <script src="js/jquery-2.1.4.js"></script>

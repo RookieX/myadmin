@@ -6,11 +6,55 @@
     padding: 0;
 }
 
-.table,.table th, .table td{
+.table,
+.table th,
+.table td {
     word-break: keep-all;
     text-align: center;
+    vertical-align: middle !important;
 }
 
-.icon{
+.icon {
     cursor: pointer;
+}
+
+#college_order_table .dropdown-detail {
+    font-size: 20px;
+    color: rgba(0, 0, 255, 0.85);
+}
+
+#college_order_table .dropdown-detail:hover {
+    color: rgba(255, 0, 0, 0.85);
+}
+
+.opt-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 30%;
+    width: 100%;
+    background: #000;
+    opacity: 0.7;
+    z-index: 1;
+    display: none;
+}
+
+.opt-container {
+    position: relative;
+}
+
+.opt-container .opt-modal-close {
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+    height: 30px;
+    opacity: 1;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.opt-container .opt-modal-close:hover {
+    color: rgba(255, 0, 0, 0.85);
 }
