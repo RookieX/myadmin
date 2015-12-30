@@ -1,0 +1,16 @@
+.navbar {
+    border-radius: 0;
+}
+
+.navbar .navbar-brand {
+    padding: 0;
+}
+
+.table,.table th, .table td{
+    word-break: keep-all;
+    text-align: center;
+}
+
+.icon{
+    cursor: pointer;
+}
